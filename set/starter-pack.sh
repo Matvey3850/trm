@@ -16,5 +16,6 @@ pkg install bash-completion -y
 pkg install vim -y
 pkg install wireless-tools -y
 pkg install net-tools -y
+pkg install wget -y
 pkg install openssh -y
 pkg install python -y
