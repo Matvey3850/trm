@@ -7,14 +7,14 @@ echo 'Author: Matvey3850'
 echo 'Source: https://github.com/Matvey3850/trm-pack'
 echo '--------------------------------------------'
 
-pkg update
-pkg upgrade
+pkg update -y
+pkg upgrade -y
 
-pkg install root-repo
-pkg install unstable-repo
-pkg install bash-completion
-pkg install vim
-pkg install wireless-tools
-pkg install net-tools
-pkg install openssh
-pkg install python
+pkg install root-repo -y
+pkg install unstable-repo -y
+pkg install bash-completion -y
+pkg install vim -y
+pkg install wireless-tools -y
+pkg install net-tools -y
+pkg install openssh -y
+pkg install python -y
