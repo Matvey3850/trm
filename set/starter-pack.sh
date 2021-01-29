@@ -4,7 +4,7 @@ clear
 echo '--------------------------------------------'
 echo 'Running - Starter Pack installer'
 echo 'Author: Matvey3850'
-echo 'Source: https://github.com/Matvey3850/trm-pack'
+echo 'Source: https://github.com/Matvey3850/trm'
 echo '--------------------------------------------'
 
 pkg update -y
@@ -19,3 +19,6 @@ pkg install net-tools -y
 pkg install wget -y
 pkg install openssh -y
 pkg install python -y
+
+
+PS1='"\[\033[1;33;1;32m\]:\[\033[1;31m\]\w$ \[\033[0m\]\[\033[0m\]"'>>.bashrc
