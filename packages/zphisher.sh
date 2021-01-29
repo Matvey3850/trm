@@ -2,9 +2,9 @@
 
 clear
 
-pkg install php
-pkg install wget
-pkg install curl
+pkg install php -y
+pkg install wget -y
+pkg install curl -y
 
 cd ~
 git clone git://github.com/htr-tech/zphisher
