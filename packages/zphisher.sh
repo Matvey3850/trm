@@ -1,7 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 clear
-
 pkg install php -y
 pkg install wget -y
 pkg install curl -y
